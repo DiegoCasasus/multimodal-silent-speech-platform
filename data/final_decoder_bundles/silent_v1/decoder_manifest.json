@@ -1,0 +1,175 @@
+{
+  "manifest_version": "silent_decoder_manifest_v1",
+  "bundle_dir": "data/final_decoder_bundles/silent_v1",
+  "n_decoders": 6,
+  "decoders": [
+    {
+      "name": "emg_imu_v1_silent_decoder_bundle",
+      "display_name": "Best practical EMG+IMU",
+      "model_key": "emg_imu_v1",
+      "target_task": "silent",
+      "bundle_path": "data/final_decoder_bundles/silent_v1/J_emg_imu/emg_imu_v1_silent_decoder_bundle.pt",
+      "required_modalities": [
+        "emg",
+        "imu"
+      ],
+      "fusion_mode": "concat",
+      "input_channels": {
+        "emg": 5,
+        "imu": 72
+      },
+      "target_size": {
+        "emg": 256,
+        "imu": 256
+      },
+      "preprocessing_tag": "w-0.50_+2.00_n256_eeg1.0-40.0_nocAR_noeegbase_emg20.0-100.0_emgenvelope_emgbase_imuLP15.0_imuall_imuraw_delta",
+      "window_start_s": -0.5,
+      "window_end_s": 2.0,
+      "best_val_balanced_accuracy": 0.8132339656729901,
+      "best_val_macro_f1": 0.813288543855653,
+      "description": "EMG envelope + IMU raw/delta using convolutional feature concatenation."
+    },
+    {
+      "name": "eeg_emg_imu_gated_v1_silent_decoder_bundle",
+      "display_name": "Full EEG+EMG+IMU gated",
+      "model_key": "eeg_emg_imu_gated_v1",
+      "target_task": "silent",
+      "bundle_path": "data/final_decoder_bundles/silent_v1/U_full_gated/eeg_emg_imu_gated_v1_silent_decoder_bundle.pt",
+      "required_modalities": [
+        "eeg",
+        "emg",
+        "imu"
+      ],
+      "fusion_mode": "gated",
+      "input_channels": {
+        "eeg": 128,
+        "emg": 5,
+        "imu": 72
+      },
+      "target_size": {
+        "eeg": 256,
+        "emg": 256,
+        "imu": 256
+      },
+      "preprocessing_tag": "w-0.50_+2.00_n256_eeg1.0-40.0_eegmultiband_bands4-8+8-13+13-30+1-40_car_eegbase_emg20.0-100.0_emgenvelope_emgbase_imuLP15.0_imuall_imuraw_delta",
+      "window_start_s": -0.5,
+      "window_end_s": 2.0,
+      "best_val_balanced_accuracy": 0.8180216802168022,
+      "best_val_macro_f1": 0.8183780918176616,
+      "description": "EEG multiband + EMG envelope + IMU raw/delta using gated modality fusion."
+    },
+    {
+      "name": "silent_j_u_ensemble_equal",
+      "display_name": "Silent ensemble J+U equal average",
+      "model_key": "silent_j_u_ensemble_equal",
+      "target_task": "silent",
+      "bundle_path": null,
+      "required_modalities": [
+        "eeg",
+        "emg",
+        "imu"
+      ],
+      "fusion_mode": "weighted_probability_ensemble",
+      "input_channels": {
+        "eeg": 128,
+        "emg": 5,
+        "imu": 72
+      },
+      "target_size": {
+        "eeg": 256,
+        "emg": 256,
+        "imu": 256
+      },
+      "preprocessing_tag": "ensemble: J_emg_imu + U_full_gated",
+      "window_start_s": -0.5,
+      "window_end_s": 2.0,
+      "description": "Probability average of the best practical EMG+IMU decoder and the full EEG+EMG+IMU gated decoder.",
+      "ensemble": {
+        "name": "silent_j_u_ensemble_equal",
+        "display_name": "Silent ensemble J+U equal average",
+        "method": "weighted_probability_average",
+        "components": [
+          {
+            "name": "J_emg_imu",
+            "bundle_path": "data/final_decoder_bundles/silent_v1/J_emg_imu/emg_imu_v1_silent_decoder_bundle.pt",
+            "weight": 0.5
+          },
+          {
+            "name": "U_full_gated",
+            "bundle_path": "data/final_decoder_bundles/silent_v1/U_full_gated/eeg_emg_imu_gated_v1_silent_decoder_bundle.pt",
+            "weight": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "name": "emg_only_v1_silent_decoder_bundle",
+      "display_name": "Silent EMG only \u2014 envelope",
+      "model_key": "emg_only_v1",
+      "target_task": "silent",
+      "bundle_path": "data/final_decoder_bundles/silent_v1/E_emg_only/emg_only_v1_silent_decoder_bundle.pt",
+      "required_modalities": [
+        "emg"
+      ],
+      "fusion_mode": "concat",
+      "input_channels": {
+        "emg": 5
+      },
+      "target_size": {
+        "emg": 256
+      },
+      "preprocessing_tag": "w-0.50_+2.00_n256_eeg1.0-40.0_nocAR_noeegbase_emg20.0-100.0_emgenvelope_emgbase_imuLP15.0_imuall_imuraw",
+      "window_start_s": -0.5,
+      "window_end_s": 2.0,
+      "best_val_balanced_accuracy": 0.30000000000000004,
+      "best_val_macro_f1": 0.3135474256592269,
+      "description": "Silent-speech EMG-only decoder using the final 5-channel EMG envelope preprocessing."
+    },
+    {
+      "name": "imu_only_v1_silent_decoder_bundle",
+      "display_name": "Silent IMU only \u2014 raw plus delta",
+      "model_key": "imu_only_v1",
+      "target_task": "silent",
+      "bundle_path": "data/final_decoder_bundles/silent_v1/D_imu_only/imu_only_v1_silent_decoder_bundle.pt",
+      "required_modalities": [
+        "imu"
+      ],
+      "fusion_mode": "concat",
+      "input_channels": {
+        "imu": 72
+      },
+      "target_size": {
+        "imu": 256
+      },
+      "preprocessing_tag": "w-0.50_+2.00_n256_eeg1.0-40.0_nocAR_noeegbase_emg20.0-100.0_emgraw_noemgbase_imuLP15.0_imuall_imuraw_delta",
+      "window_start_s": -0.5,
+      "window_end_s": 2.0,
+      "best_val_balanced_accuracy": 0.7150000000000001,
+      "best_val_macro_f1": 0.7040357637124316,
+      "description": "Silent-speech IMU-only decoder using four 9-channel IMU streams with raw and temporal-delta features."
+    },
+    {
+      "name": "eeg_only_v1_silent_decoder_bundle",
+      "display_name": "Silent EEG only \u2014 multiband",
+      "model_key": "eeg_only_v1",
+      "target_task": "silent",
+      "bundle_path": "data/final_decoder_bundles/silent_v1/T_eeg_only/eeg_only_v1_silent_decoder_bundle.pt",
+      "required_modalities": [
+        "eeg"
+      ],
+      "fusion_mode": "concat",
+      "input_channels": {
+        "eeg": 128
+      },
+      "target_size": {
+        "eeg": 256
+      },
+      "preprocessing_tag": "w-0.50_+2.00_n256_eeg1.0-40.0_eegmultiband_bands4-8+8-13+13-30+1-40_car_eegbase_emg20.0-100.0_emgraw_noemgbase_imuLP15.0_imuall_imuraw",
+      "window_start_s": -0.5,
+      "window_end_s": 2.0,
+      "best_val_balanced_accuracy": 0.16499999999999998,
+      "best_val_macro_f1": 0.2263887198214648,
+      "description": "Silent-speech EEG-only decoder using four-band multiband EEG preprocessing."
+    }
+  ]
+}

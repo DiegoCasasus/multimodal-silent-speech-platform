@@ -1,0 +1,1176 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2025.2.4">
+  <Settings>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Online silent run complete." valType="str" updates="None" name="End Message"/>
+    <Param val="{&quot;participant&quot;:&quot;f\&quot;{randint(0, 999999):06.0f}\&quot;&quot;,&quot;session&quot;:&quot;001&quot;,&quot;run&quot;:&quot;001&quot;}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="2" valType="num" updates="None" name="Screen"/>
+    <Param val="False" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{&quot;thisRow.t&quot;:&quot;priority.CRITICAL&quot;,&quot;expName&quot;:&quot;priority.LOW&quot;}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$(0.0000, 0.0000, 0.0000)" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="Experiment_Online_Silent" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="[&quot;MIDDLE_BUTTON&quot;]" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="True" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="speech_window = 2.0&amp;#10;trial_start_time = globalClock.getTime()&amp;#10;&amp;#10;current_trial_index += 1&amp;#10;decoder_result_for_trial = None&amp;#10;expected_result_json_path = None&amp;#10;&amp;#10;stimulus_go_txt.setText(target_word)&amp;#10;win.callOnFlip(outlet.push_sample, [f&quot;SILENT_GO:{target_word}&quot;])&amp;#10;thisExp.addData('current_trial_index', current_trial_index)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="if t &gt;= speech_window: &amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="trial_end_time = globalClock.getTime()&amp;#10;completed_online_trials += 1&amp;#10;thisExp.addData('trial_duration', trial_end_time - trial_start_time)&amp;#10;&amp;#10;# Do NOT overwrite predicted_word here.&amp;#10;# The decoder result will be read in decode_wait.&amp;#10;outlet.push_sample([f&quot;SILENT_END:{target_word}&quot;])" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="stimulus_go_txt" plugin="None">
+        <Param val="$(0.1294, 0.8667, 0.1294)" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.17" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="stimulus_go_txt" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.08)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$target_word" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="phase_txt_trial" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.06" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="phase_txt_trial" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.28)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Silently speak now" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Finish">
+      <RoutineSettingsComponent name="Finish" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Finish" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$run_summary_text" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1.2" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="finish_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="summary_path = None&amp;#10;summary_payload = None&amp;#10;&amp;#10;if (not online_decoder_results_dir) and (PREPARED_RUN is not None):&amp;#10;    online_decoder_results_dir = PREPARED_RUN.get('online_results_dir')&amp;#10;&amp;#10;if online_decoder_results_dir:&amp;#10;    summary_path = os.path.join(online_decoder_results_dir, 'run_summary.json')&amp;#10;    if os.path.exists(summary_path):&amp;#10;        try:&amp;#10;            with open(summary_path, 'r', encoding='utf-8') as f:&amp;#10;                summary_payload = json.load(f)&amp;#10;        except Exception:&amp;#10;            summary_payload = None&amp;#10;&amp;#10;best_cosine_text = 'N/A'&amp;#10;if brainprint_best_match_cosine is not None:&amp;#10;    best_cosine_text = f&quot;{brainprint_best_match_cosine:.4f}&quot;&amp;#10;&amp;#10;best_match_name = 'N/A'&amp;#10;if brainprint_best_match_file:&amp;#10;    best_match_name = os.path.basename(brainprint_best_match_file)&amp;#10;&amp;#10;if summary_payload is not None:&amp;#10;    n_trials = summary_payload.get('n_trials', completed_online_trials)&amp;#10;    n_correct = summary_payload.get('n_correct', 'N/A')&amp;#10;    accuracy = summary_payload.get('accuracy', None)&amp;#10;    mean_conf = summary_payload.get('mean_confidence', None)&amp;#10;    mean_lat = summary_payload.get('mean_latency_ms', None)&amp;#10;&amp;#10;    acc_text = f&quot;{accuracy:.3f}&quot; if isinstance(accuracy, (int, float)) else &quot;N/A&quot;&amp;#10;    conf_text = f&quot;{mean_conf:.3f}&quot; if isinstance(mean_conf, (int, float)) else &quot;N/A&quot;&amp;#10;    lat_text = f&quot;{mean_lat:.1f} ms&quot; if isinstance(mean_lat, (int, float)) else &quot;N/A&quot;&amp;#10;&amp;#10;    run_summary_text = (&amp;#10;        &quot;Online silent run complete.\n\n&quot;&amp;#10;        f&quot;Trials completed: {n_trials}\n&quot;&amp;#10;        f&quot;Correct: {n_correct}\n&quot;&amp;#10;        f&quot;Accuracy: {acc_text}\n&quot;&amp;#10;        f&quot;Mean confidence: {conf_text}\n&quot;&amp;#10;        f&quot;Mean latency: {lat_text}\n\n&quot;&amp;#10;        f&quot;Brainprint status: {brainprint_status}\n&quot;&amp;#10;        f&quot;Adaptation allowed: {adaptation_allowed}\n&quot;&amp;#10;        f&quot;Adaptation reason: {adaptation_reason}\n&quot;&amp;#10;        f&quot;Best match: {best_match_name}\n&quot;&amp;#10;        f&quot;Best cosine: {best_cosine_text}\n\n&quot;&amp;#10;        &quot;Press SPACE to close.&quot;&amp;#10;    )&amp;#10;else:&amp;#10;    run_summary_text = (&amp;#10;        &quot;Online silent run complete.\n\n&quot;&amp;#10;        f&quot;Trials completed: {completed_online_trials}\n\n&quot;&amp;#10;        f&quot;Brainprint status: {brainprint_status}\n&quot;&amp;#10;        f&quot;Adaptation allowed: {adaptation_allowed}\n&quot;&amp;#10;        f&quot;Adaptation reason: {adaptation_reason}\n&quot;&amp;#10;        f&quot;Best match: {best_match_name}\n&quot;&amp;#10;        f&quot;Best cosine: {best_cosine_text}\n\n&quot;&amp;#10;        &quot;Decoder summary not found.\n\n&quot;&amp;#10;        &quot;Press SPACE to close.&quot;&amp;#10;    )&amp;#10;&amp;#10;text_2.setText(run_summary_text)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="# Destroy the LSL stream to release the background thread&amp;#10;try:&amp;#10;    del outlet&amp;#10;    del info&amp;#10;    print(&quot;LSL marker stream closed cleanly.&quot;)&amp;#10;except:&amp;#10;    pass" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="finish_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space', 'escape'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Instructions_silent">
+      <RoutineSettingsComponent name="Instructions_silent" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Instructions_silent" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <KeyboardComponent name="instructions_key_resp" plugin="None">
+        <Param val="[&quot;space&quot;]" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="instructions_key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="inst_silent_txt" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="inst_silent_txt" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You will see one target word at the center of the screen.&amp;#10;&amp;#10;First it will appear in white.&amp;#10;When it turns green, silently mouth that word.&amp;#10;&amp;#10;Wait for feedback after each trial.&amp;#10;&amp;#10;Press SPACE to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code_silent_instructions" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="force_window_focus(win)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_silent_instructions" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="wait">
+      <RoutineSettingsComponent name="wait" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="wait" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="import numpy as np&amp;#10;iti = np.random.uniform(0.5, 1.5)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="if t &gt;= iti: &amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="ready_txt2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="ready_txt2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Instructions_imagined">
+      <RoutineSettingsComponent name="Instructions_imagined" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Instructions_imagined" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <KeyboardComponent name="instructions_key_resp_2" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="instructions_key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="inst_imagined_txt" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="inst_imagined_txt" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Look at the center cross.&amp;#10;&amp;#10;A white word will appear.&amp;#10;&amp;#10;When the word turns green, perform the imagined speech (imagine yourself saying the word without movement)." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code_instructions_imagined" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="force_window_focus(win)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_instructions_imagined" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Welcome">
+      <RoutineSettingsComponent name="Welcome" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Welcome" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="welcome_txt" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="welcome_txt" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="welcome_code" plugin="None">
+        <Param val="import socket&amp;#10;import time&amp;#10;import json&amp;#10;import subprocess&amp;#10;import shutil&amp;#10;from pylsl import StreamInfo, StreamOutlet&amp;#10;import atexit&amp;#10;import os&amp;#10;import sys&amp;#10;&amp;#10;SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))&amp;#10;PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)&amp;#10;&amp;#10;labrecorder_proc = None&amp;#10;PREPARED_RUN = None&amp;#10;PREPARED_RUN_SOURCE = None&amp;#10;&amp;#10;&amp;#10;def resolve_project_path(value):&amp;#10;    &quot;&quot;&quot;Resolve runtime paths relative to PROJECT_ROOT, never current cwd.&amp;#10;&amp;#10;    Existing absolute paths continue to work. Future portable bridge files can&amp;#10;    store project-relative paths such as data/latest_prepared_run.json,&amp;#10;    recordings/..., brainprints/..., or code/decoder/...&amp;#10;    &quot;&quot;&quot;&amp;#10;    if value is None:&amp;#10;        return None&amp;#10;&amp;#10;    text = str(value).strip()&amp;#10;    if not text:&amp;#10;        return None&amp;#10;&amp;#10;    text = os.path.expandvars(os.path.expanduser(text))&amp;#10;    if os.path.isabs(text):&amp;#10;        return os.path.normpath(text)&amp;#10;&amp;#10;    return os.path.normpath(os.path.join(PROJECT_ROOT, text))&amp;#10;&amp;#10;&amp;#10;def load_project_config():&amp;#10;    &quot;&quot;&quot;Load the optional project config used by the GUI/exportable version.&amp;#10;&amp;#10;    This PsychoPy Builder script only relies on JSON to avoid requiring PyYAML&amp;#10;    inside the PsychoPy environment. Missing config is allowed; the experiment&amp;#10;    then falls back to the historical project-relative defaults.&amp;#10;    &quot;&quot;&quot;&amp;#10;    candidates = [&amp;#10;        os.path.join(PROJECT_ROOT, 'config', 'project_config.json'),&amp;#10;    ]&amp;#10;&amp;#10;    for candidate in candidates:&amp;#10;        if not os.path.exists(candidate):&amp;#10;            continue&amp;#10;        try:&amp;#10;            with open(candidate, 'r', encoding='utf-8') as f:&amp;#10;                payload = json.load(f)&amp;#10;            if isinstance(payload, dict):&amp;#10;                print(f&quot;Loaded project config: {candidate}&quot;)&amp;#10;                return payload&amp;#10;            print(f&quot;Ignoring project config with non-dict top level: {candidate}&quot;)&amp;#10;        except Exception as e:&amp;#10;            print(f&quot;Could not load project config {candidate}: {e}&quot;)&amp;#10;&amp;#10;    return {}&amp;#10;&amp;#10;&amp;#10;PROJECT_CONFIG = load_project_config()&amp;#10;&amp;#10;&amp;#10;def get_project_config_value(dotted_key, default=None):&amp;#10;    current = PROJECT_CONFIG&amp;#10;    for part in str(dotted_key).split('.'):&amp;#10;        if not isinstance(current, dict) or part not in current:&amp;#10;            return default&amp;#10;        current = current[part]&amp;#10;    return current&amp;#10;&amp;#10;&amp;#10;def get_configured_path(dotted_key, default=None):&amp;#10;    value = get_project_config_value(dotted_key, None)&amp;#10;    if value is None or str(value).strip() == '':&amp;#10;        value = default&amp;#10;    return resolve_project_path(value) if value else None&amp;#10;&amp;#10;&amp;#10;def get_decoder_python_exe():&amp;#10;    &quot;&quot;&quot;Return the Python executable used for decoder/brainprint subprocesses.&quot;&quot;&quot;&amp;#10;    configured = get_configured_path('external_tools.decoder_python_exe', None)&amp;#10;    if configured:&amp;#10;        if os.path.exists(configured):&amp;#10;            return configured&amp;#10;        print(f&quot;Configured decoder_python_exe does not exist, falling back to sys.executable: {configured}&quot;)&amp;#10;    return sys.executable&amp;#10;&amp;#10;&amp;#10;def get_psychopy_python_exe():&amp;#10;    &quot;&quot;&quot;Return the configured PsychoPy Python executable, if any.&amp;#10;&amp;#10;    The current Builder-generated script normally runs inside the correct&amp;#10;    PsychoPy/Python process already, so this helper is mostly for future&amp;#10;    launchers and diagnostic output.&amp;#10;    &quot;&quot;&quot;&amp;#10;    configured = get_configured_path('external_tools.psychopy_python_exe', None)&amp;#10;    if configured and os.path.exists(configured):&amp;#10;        return configured&amp;#10;    return sys.executable&amp;#10;&amp;#10;&amp;#10;BRIDGE_CANDIDATES = [&amp;#10;    get_configured_path('paths.bridge_file', os.path.join(PROJECT_ROOT, 'data', 'latest_prepared_run.json')),&amp;#10;    os.path.join(PROJECT_ROOT, 'data', 'latest_prepared_run.json'),&amp;#10;]&amp;#10;BRIDGE_CANDIDATES = [p for p in BRIDGE_CANDIDATES if p]&amp;#10;&amp;#10;LABRECORDER_BASE_ROOT = get_configured_path(&amp;#10;    'paths.recordings_root',&amp;#10;    os.path.join(PROJECT_ROOT, 'recordings'),&amp;#10;)&amp;#10;&amp;#10;&amp;#10;def labrecorder_app_binary(app_path):&amp;#10;    &quot;&quot;&quot;Return the executable inside a macOS .app bundle if it exists.&quot;&quot;&quot;&amp;#10;    if not app_path:&amp;#10;        return None&amp;#10;    app_path = os.path.normpath(app_path)&amp;#10;    if not app_path.lower().endswith('.app') or not os.path.isdir(app_path):&amp;#10;        return None&amp;#10;&amp;#10;    app_name = os.path.splitext(os.path.basename(app_path))[0]&amp;#10;    macos_dir = os.path.join(app_path, 'Contents', 'MacOS')&amp;#10;    candidates = [&amp;#10;        os.path.join(macos_dir, app_name),&amp;#10;        os.path.join(macos_dir, 'LabRecorder'),&amp;#10;        os.path.join(macos_dir, 'labrecorder'),&amp;#10;    ]&amp;#10;    for candidate in candidates:&amp;#10;        if os.path.exists(candidate):&amp;#10;            return candidate&amp;#10;    return None&amp;#10;&amp;#10;&amp;#10;def normalise_executable_candidate(path_value):&amp;#10;    if not path_value:&amp;#10;        return None&amp;#10;    path_value = resolve_project_path(path_value)&amp;#10;    if not path_value:&amp;#10;        return None&amp;#10;&amp;#10;    app_binary = labrecorder_app_binary(path_value)&amp;#10;    if app_binary:&amp;#10;        return app_binary&amp;#10;&amp;#10;    return path_value&amp;#10;&amp;#10;&amp;#10;LABRECORDER_EXE_CANDIDATES = [&amp;#10;    get_configured_path('external_tools.labrecorder_exe', None),&amp;#10;    os.path.join(SCRIPT_DIR, 'LabRecorder.exe'),&amp;#10;    os.path.join(SCRIPT_DIR, 'LabRecorder', 'LabRecorder.exe'),&amp;#10;    os.path.join(os.path.dirname(SCRIPT_DIR), 'LabRecorder.exe'),&amp;#10;    os.path.join(os.path.dirname(SCRIPT_DIR), 'LabRecorder', 'LabRecorder.exe'),&amp;#10;    os.path.join(PROJECT_ROOT, 'LabRecorder.exe'),&amp;#10;    os.path.join(PROJECT_ROOT, 'LabRecorder', 'LabRecorder.exe'),&amp;#10;    os.path.join(PROJECT_ROOT, 'LabRecorder.app'),&amp;#10;    os.path.join(PROJECT_ROOT, 'LabRecorder', 'LabRecorder.app'),&amp;#10;    os.path.join('/Applications', 'LabRecorder.app'),&amp;#10;    os.path.join('/Applications', 'LabRecorder.app', 'Contents', 'MacOS', 'LabRecorder'),&amp;#10;    '/opt/homebrew/opt/labrecorder/LabRecorder.app',&amp;#10;    '/opt/homebrew/opt/labrecorder/LabRecorder.app/Contents/MacOS/LabRecorder',&amp;#10;    '/usr/local/opt/labrecorder/LabRecorder.app',&amp;#10;    '/usr/local/opt/labrecorder/LabRecorder.app/Contents/MacOS/LabRecorder',&amp;#10;    r'C:\Program Files\LabRecorder\LabRecorder.exe',&amp;#10;    r'C:\Program Files (x86)\LabRecorder\LabRecorder.exe',&amp;#10;]&amp;#10;&amp;#10;&amp;#10;def resolve_prepared_run_paths(payload):&amp;#10;    &quot;&quot;&quot;Normalise known bridge path fields to absolute paths for this script.&amp;#10;&amp;#10;    This keeps the rest of the PsychoPy script stable: all existing code can&amp;#10;    continue using os.path.exists, os.makedirs, subprocess arguments, etc.&amp;#10;    &quot;&quot;&quot;&amp;#10;    if not isinstance(payload, dict):&amp;#10;        return payload&amp;#10;&amp;#10;    payload = dict(payload)&amp;#10;&amp;#10;    for key in [&amp;#10;        'expected_xdf_path',&amp;#10;        'metadata_path',&amp;#10;        'manifest_path',&amp;#10;        'online_results_dir',&amp;#10;        'decoder_bundle_path',&amp;#10;        'brainprint_compare_json',&amp;#10;        'brainprint_summary_json',&amp;#10;    ]:&amp;#10;        if payload.get(key):&amp;#10;            payload[key] = resolve_project_path(payload[key])&amp;#10;&amp;#10;    block_paths = payload.get('recording_block_paths')&amp;#10;    if isinstance(block_paths, dict):&amp;#10;        payload['recording_block_paths'] = {&amp;#10;            block: resolve_project_path(path_value) if path_value else path_value&amp;#10;            for block, path_value in block_paths.items()&amp;#10;        }&amp;#10;&amp;#10;    ensemble = payload.get('decoder_ensemble')&amp;#10;    if isinstance(ensemble, dict):&amp;#10;        ensemble = dict(ensemble)&amp;#10;        components = []&amp;#10;        for component in ensemble.get('components', []):&amp;#10;            if isinstance(component, dict):&amp;#10;                component = dict(component)&amp;#10;                if component.get('bundle_path'):&amp;#10;                    component['bundle_path'] = resolve_project_path(component['bundle_path'])&amp;#10;            components.append(component)&amp;#10;        ensemble['components'] = components&amp;#10;        payload['decoder_ensemble'] = ensemble&amp;#10;&amp;#10;    return payload&amp;#10;&amp;#10;&amp;#10;def force_window_focus(win):&amp;#10;    # On macOS, forcing activation of the pyglet/Cocoa window can freeze the next win.flip().&amp;#10;    # Keep the Windows/Linux behavior, but make this a no-op on macOS.&amp;#10;    import sys as _sys&amp;#10;    if _sys.platform == &quot;darwin&quot;:&amp;#10;        print(&quot;[MAC] Skipping force_window_focus() to avoid Cocoa/pyglet flip freeze.&quot;, flush=True)&amp;#10;        return&amp;#10;    try:&amp;#10;        win.winHandle.activate()&amp;#10;        core.wait(0.15)&amp;#10;    except Exception as e:&amp;#10;        print(f&quot;Could not force window focus: {e}&quot;, flush=True)&amp;#10;&amp;#10;&amp;#10;def load_prepared_run_bridge():&amp;#10;    global PREPARED_RUN_SOURCE&amp;#10;&amp;#10;    for candidate in BRIDGE_CANDIDATES:&amp;#10;        if os.path.exists(candidate):&amp;#10;            try:&amp;#10;                with open(candidate, 'r', encoding='utf-8') as f:&amp;#10;                    payload = json.load(f)&amp;#10;                payload = resolve_prepared_run_paths(payload)&amp;#10;                PREPARED_RUN_SOURCE = os.path.normpath(candidate)&amp;#10;                print(f&quot;Loaded GUI bridge file: {candidate}&quot;)&amp;#10;                return payload&amp;#10;            except Exception as e:&amp;#10;                print(f&quot;Could not read GUI bridge file at {candidate}: {e}&quot;)&amp;#10;&amp;#10;    print(&quot;No GUI bridge file found.&quot;)&amp;#10;    return None&amp;#10;&amp;#10;&amp;#10;def apply_bridge_to_expinfo(expInfo, prepared_run):&amp;#10;    if not prepared_run:&amp;#10;        return expInfo&amp;#10;&amp;#10;    expInfo['participant'] = prepared_run.get('participant_id', expInfo.get('participant', '001'))&amp;#10;    expInfo['session'] = prepared_run.get('session_id', expInfo.get('session', '001'))&amp;#10;    expInfo['run'] = prepared_run.get('run_id', expInfo.get('run', '001'))&amp;#10;    return expInfo&amp;#10;&amp;#10;&amp;#10;def resolve_block_name(block_num):&amp;#10;    if block_num == 1:&amp;#10;        return 'calibration'&amp;#10;    elif block_num == 2:&amp;#10;        return 'silent'&amp;#10;    elif block_num == 3:&amp;#10;        return 'imagined'&amp;#10;    return f'block{block_num}'&amp;#10;&amp;#10;&amp;#10;def build_block_xdf_template(expInfo, block):&amp;#10;    participant = str(expInfo.get('participant', 'test_subject')).replace(' ', '_')&amp;#10;    session = str(expInfo.get('session', '001')).replace(' ', '_')&amp;#10;    run_id = str(expInfo.get('run', '001')).replace(' ', '_')&amp;#10;&amp;#10;    if PREPARED_RUN is not None:&amp;#10;        experiment_mode = str(PREPARED_RUN.get('experiment_mode', 'recording')).replace(' ', '_')&amp;#10;    else:&amp;#10;        experiment_mode = 'recording'&amp;#10;&amp;#10;    return f'exp_sub_{participant}_ses_{session}_run_{run_id}_mode_{experiment_mode}_bl_{block}.xdf'&amp;#10;&amp;#10;&amp;#10;def build_labrecorder_file_cmd(expInfo, block):&amp;#10;    &quot;&quot;&quot;&amp;#10;    Priority:&amp;#10;    1. Use GUI-prepared per-block path if present.&amp;#10;    2. Fall back to GUI-prepared calibration folder / expected_xdf_path.&amp;#10;    3. Fall back to default recordings/&lt;block&gt;/ folder.&amp;#10;    &quot;&quot;&quot;&amp;#10;    file_root = None&amp;#10;    template = None&amp;#10;&amp;#10;    if PREPARED_RUN is not None:&amp;#10;        recording_block_paths = PREPARED_RUN.get('recording_block_paths', {})&amp;#10;&amp;#10;        block_path = recording_block_paths.get(block)&amp;#10;        if block_path:&amp;#10;            block_path = os.path.normpath(block_path)&amp;#10;            file_root = os.path.dirname(block_path)&amp;#10;            template = os.path.basename(block_path)&amp;#10;&amp;#10;        elif PREPARED_RUN.get('expected_xdf_path'):&amp;#10;            expected_xdf_path = os.path.normpath(PREPARED_RUN['expected_xdf_path'])&amp;#10;            file_root = os.path.dirname(expected_xdf_path)&amp;#10;            template = build_block_xdf_template(expInfo, block)&amp;#10;&amp;#10;    if file_root is None:&amp;#10;        experiment_mode = PREPARED_RUN.get('experiment_mode', 'recording') if PREPARED_RUN else 'recording'&amp;#10;        file_root = os.path.join(LABRECORDER_BASE_ROOT, experiment_mode, block)&amp;#10;        template = build_block_xdf_template(expInfo, block)&amp;#10;&amp;#10;    os.makedirs(file_root, exist_ok=True)&amp;#10;    file_root = os.path.normpath(file_root)&amp;#10;    if not file_root.endswith(os.sep):&amp;#10;        file_root = file_root + os.sep&amp;#10;&amp;#10;    cmd = f'filename {{root:{file_root}}} {{template:{template}}}'&amp;#10;    print('Sending LabRecorder filename command:', cmd)&amp;#10;    return cmd&amp;#10;&amp;#10;&amp;#10;def labrecorder_is_listening(host='localhost', port=22345, timeout=0.5):&amp;#10;    try:&amp;#10;        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)&amp;#10;        s.settimeout(timeout)&amp;#10;        s.connect((host, port))&amp;#10;        s.close()&amp;#10;        return True&amp;#10;    except Exception:&amp;#10;        return False&amp;#10;&amp;#10;&amp;#10;def executable_exists(path_value):&amp;#10;    candidate = normalise_executable_candidate(path_value)&amp;#10;    if not candidate or not os.path.exists(candidate):&amp;#10;        return None&amp;#10;&amp;#10;    # Never select a bundled Windows executable on macOS/Linux merely because&amp;#10;    # the file exists inside the exported repository.&amp;#10;    if not sys.platform.startswith('win') and str(candidate).lower().endswith('.exe'):&amp;#10;        return None&amp;#10;&amp;#10;    # On POSIX systems require an actually executable native binary.&amp;#10;    if not sys.platform.startswith('win') and not os.access(candidate, os.X_OK):&amp;#10;        return None&amp;#10;&amp;#10;    return candidate&amp;#10;&amp;#10;&amp;#10;def find_labrecorder_exe():&amp;#10;    # 1) Project config override and explicit known candidates.&amp;#10;    for exe in LABRECORDER_EXE_CANDIDATES:&amp;#10;        candidate = executable_exists(exe)&amp;#10;        if candidate:&amp;#10;            return candidate&amp;#10;&amp;#10;    # 2) PATH lookup.&amp;#10;    from_path = shutil.which('LabRecorder.exe') or shutil.which('LabRecorder') or shutil.which('labrecorder')&amp;#10;    if from_path:&amp;#10;        return from_path&amp;#10;&amp;#10;    # 3) Shallow project search. Avoid deep recursive scans in large data folders.&amp;#10;    search_roots = [SCRIPT_DIR, os.path.dirname(SCRIPT_DIR), PROJECT_ROOT]&amp;#10;    for root in search_roots:&amp;#10;        if not root or not os.path.isdir(root):&amp;#10;            continue&amp;#10;&amp;#10;        for dirpath, dirnames, filenames in os.walk(root):&amp;#10;            rel_depth = os.path.relpath(dirpath, root).count(os.sep)&amp;#10;            if rel_depth &gt; 3:&amp;#10;                dirnames[:] = []&amp;#10;                continue&amp;#10;&amp;#10;            for filename in ['LabRecorder.exe', 'LabRecorder', 'labrecorder']:&amp;#10;                if filename in filenames:&amp;#10;                    return os.path.join(dirpath, filename)&amp;#10;&amp;#10;            for dirname in list(dirnames):&amp;#10;                if dirname.lower() == 'labrecorder.app':&amp;#10;                    app_binary = labrecorder_app_binary(os.path.join(dirpath, dirname))&amp;#10;                    if app_binary:&amp;#10;                        return app_binary&amp;#10;&amp;#10;    return None&amp;#10;&amp;#10;&amp;#10;def ensure_labrecorder_running():&amp;#10;    global labrecorder_proc&amp;#10;&amp;#10;    if labrecorder_is_listening():&amp;#10;        print('LabRecorder already running.')&amp;#10;        return True&amp;#10;&amp;#10;    exe = find_labrecorder_exe()&amp;#10;    if exe is None:&amp;#10;        print('Could not find LabRecorder executable.')&amp;#10;        print('Checked explicit candidates:', LABRECORDER_EXE_CANDIDATES)&amp;#10;        print('Set external_tools.labrecorder_exe in config/project_config.json if needed.')&amp;#10;        return False&amp;#10;&amp;#10;    try:&amp;#10;        print(f'Launching LabRecorder from: {exe}')&amp;#10;        labrecorder_proc = subprocess.Popen([exe])&amp;#10;&amp;#10;        for _ in range(20):&amp;#10;            time.sleep(0.5)&amp;#10;            if labrecorder_is_listening():&amp;#10;                print('LabRecorder launched successfully and remote control is available.')&amp;#10;                return True&amp;#10;&amp;#10;        print('LabRecorder launched, but remote-control port 22345 did not become available.')&amp;#10;    except Exception as e:&amp;#10;        print(f'Failed to launch LabRecorder from {exe}: {e}')&amp;#10;&amp;#10;    return False" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="global PREPARED_RUN&amp;#10;&amp;#10;PREPARED_RUN = load_prepared_run_bridge()&amp;#10;expInfo = apply_bridge_to_expinfo(expInfo, PREPARED_RUN)&amp;#10;&amp;#10;print(&quot;PREPARED_RUN =&quot;, PREPARED_RUN)&amp;#10;print(&quot;expInfo after bridge =&quot;, expInfo)&amp;#10;&amp;#10;CONDITIONS_XLSX = get_configured_path(&quot;paths.conditions_xlsx&quot;, os.path.join(PROJECT_ROOT, &quot;psychopy&quot;, &quot;Conditions.xlsx&quot;))&amp;#10;&amp;#10;if PREPARED_RUN is not None and PREPARED_RUN.get(&quot;basename&quot;):&amp;#10;    thisExp.dataFileName = os.path.join(_thisDir, &quot;data&quot;, PREPARED_RUN[&quot;basename&quot;])&amp;#10;    print(&quot;Overriding PsychoPy data file name:&quot;, thisExp.dataFileName)&amp;#10;&amp;#10;# 1. Delayed fuse to prevent the final freeze&amp;#10;atexit.register(lambda: os._exit(0))&amp;#10;&amp;#10;# 2. Set our starting block number&amp;#10;block_num = 1&amp;#10;imagined_batch = 1&amp;#10;silent_batch = 1&amp;#10;recording_started = False&amp;#10;&amp;#10;completed_online_trials = 0&amp;#10;predicted_word = ''&amp;#10;prediction_confidence = ''&amp;#10;feedback_text = ''&amp;#10;run_summary_text = ''&amp;#10;online_decoder_proc = None&amp;#10;online_decoder_results_dir = None&amp;#10;current_trial_index = 0&amp;#10;decoder_result_for_trial = None&amp;#10;expected_result_json_path = None&amp;#10;decode_wait_start_time = None&amp;#10;decode_timeout_sec = 5.0&amp;#10;# 3. Create the marker stream ONLY ONCE&amp;#10;info = StreamInfo(&quot;PsychoPy_Markers&quot;, &quot;Markers&quot;, 1, 0, &quot;string&quot;, &quot;my_silent_speech_exp&quot;)&amp;#10;outlet = StreamOutlet(info)&amp;#10;time.sleep(0.1)&amp;#10;print(&quot;LSL Marker Stream created for the whole experiment.&quot;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="welcome_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Start_record">
+      <RoutineSettingsComponent name="Start_record" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Start_record" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_start" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="block = resolve_block_name(block_num)&amp;#10;recording_started = False&amp;#10;&amp;#10;if not ensure_labrecorder_running():&amp;#10;    print(&quot;LabRecorder is not available. Recording was not started.&quot;)&amp;#10;else:&amp;#10;    try:&amp;#10;        lr_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)&amp;#10;        lr_socket.settimeout(2.0)&amp;#10;        lr_socket.connect((&quot;localhost&quot;, 22345))&amp;#10;&amp;#10;        def send_cmd(cmd):&amp;#10;            lr_socket.sendall(cmd.encode(&quot;utf-8&quot;) + b&quot;\n&quot;)&amp;#10;            time.sleep(0.2)&amp;#10;            try:&amp;#10;                lr_socket.recv(1024)&amp;#10;            except:&amp;#10;                pass&amp;#10;&amp;#10;        send_cmd(&quot;update&quot;)&amp;#10;        send_cmd(&quot;select all&quot;)&amp;#10;&amp;#10;        file_cmd = build_labrecorder_file_cmd(expInfo, block)&amp;#10;        print(&quot;Sending LabRecorder filename command:&quot;, file_cmd)&amp;#10;        send_cmd(file_cmd)&amp;#10;&amp;#10;        send_cmd(&quot;start&quot;)&amp;#10;        lr_socket.close()&amp;#10;&amp;#10;        recording_started = True&amp;#10;        print(f&quot;LabRecorder successfully started for BLOCK {block}!&quot;)&amp;#10;&amp;#10;    except Exception as e:&amp;#10;        print(&quot;LabRecorder start failed:&quot;, e)&amp;#10;&amp;#10;# Advance experiment state even if LabRecorder failed,&amp;#10;# otherwise downstream block logic breaks.&amp;#10;block_num += 1" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_start" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Stop_record">
+      <RoutineSettingsComponent name="Stop_record" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Stop_record" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="stop_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="win.callOnFlip(outlet.push_sample, [f&quot;{block}_BLOCK_END&quot;])&amp;#10;print(f&quot;{block} block finished&quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="try:&amp;#10;    stop_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)&amp;#10;    stop_socket.settimeout(2.0)&amp;#10;    stop_socket.connect((&quot;localhost&quot;, 22345))&amp;#10;    stop_socket.sendall(b&quot;stop\n&quot;)&amp;#10;    stop_socket.close()&amp;#10;    print(&quot;Loop finished. LabRecorder stopped and block file saved.&quot;)&amp;#10;except:&amp;#10;    pass" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="stop_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="calibration">
+      <RoutineSettingsComponent name="calibration" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="calibration" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="fixCal" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fixCal" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.3" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="calStim" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.18" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="calStim" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.3" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="X" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="cal_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="import * as random from 'random';&amp;#10;p_target = 0.1;&amp;#10;is_target = (Math.random.random() &lt; p_target);&amp;#10;if (is_target) {&amp;#10;    cal_char = Math.random.randint(0, 9).toString();&amp;#10;    tag = &quot;T&quot;;&amp;#10;} else {&amp;#10;    cal_char = chr(Math.random.randint(ord(&quot;A&quot;), ord(&quot;Z&quot;)));&amp;#10;    tag = &quot;NT&quot;;&amp;#10;}&amp;#10;calStim.setText(cal_char);&amp;#10;psychoJS.window.callOnFlip(send_marker, `CAL_STIM_ON:${cal_char}:${tag}`);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="import random&amp;#10;p_target = 0.10&amp;#10;is_target = (random.random() &lt; p_target)&amp;#10;&amp;#10;if is_target:&amp;#10;    cal_char = str(random.randint(0, 9))&amp;#10;    tag = &quot;T&quot;&amp;#10;else:&amp;#10;    cal_char = chr(random.randint(ord('A'), ord('Z')))&amp;#10;    tag = &quot;NT&quot;&amp;#10;&amp;#10;# Set the stimulus text *here* (so it is defined before drawing)&amp;#10;calStim.setText(cal_char)&amp;#10;&amp;#10;# Marker aligned to the screen flip&amp;#10;win.callOnFlip(outlet.push_sample, [f&quot;CAL_STIM_ON:{cal_char}:{tag}&quot;])" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="cal_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="cal_instructions">
+      <RoutineSettingsComponent name="cal_instructions" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="Calibration (no mouthing).&amp;#10;Look at the center and COUNT how many NUMBERS you see.&amp;#10;Do not press any keys during calibration.&amp;#10;Press SPACE to begin." valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="cal_instructions" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <KeyboardComponent name="calStartKeys" plugin="None">
+        <Param val="[&quot;space&quot;]" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="calStartKeys" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="instructions" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instructions" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Calibration (no mouthing).&amp;#10;Look at the center and COUNT how many NUMBERS you see.&amp;#10;Do not press any keys during calibration.&amp;#10;Press SPACE to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="calibration_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="import random&amp;#10;random.seed(12345)&amp;#10;force_window_focus(win)&amp;#10;win.callOnFlip(outlet.push_sample, [&quot;CAL_BLOCK_START&quot;])" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="calibration_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="mini_break">
+      <RoutineSettingsComponent name="mini_break" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="mini_break" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="break_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# Show a rest screen after every 50 completed online silent trials, except after the final trial.&amp;#10;# This is safer for long validation runs: with 450 trials, this gives about 8 rests.&amp;#10;break_every_n_trials = 50&amp;#10;try:&amp;#10;    total_silent_trials = int(trials_online_silent.nTotal)&amp;#10;except Exception:&amp;#10;    total_silent_trials = 0&amp;#10;&amp;#10;show_mini_break = (&amp;#10;    completed_online_trials &gt; 0&amp;#10;    and completed_online_trials % break_every_n_trials == 0&amp;#10;    and (total_silent_trials &lt;= 0 or completed_online_trials &lt; total_silent_trials)&amp;#10;)&amp;#10;&amp;#10;if not show_mini_break:&amp;#10;    marker_txt = None&amp;#10;    continueRoutine = False&amp;#10;else:&amp;#10;    force_window_focus(win)&amp;#10;    marker_txt = f&quot;SILENT_REST_END:{completed_online_trials}&quot;&amp;#10;    win.callOnFlip(outlet.push_sample, [f&quot;SILENT_REST_START:{completed_online_trials}&quot;])&amp;#10;    print(f&quot;[REST] {completed_online_trials} silent trials completed. Press SPACEBAR to continue.&quot;, flush=True)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="if marker_txt:&amp;#10;    win.callOnFlip(outlet.push_sample, [marker_txt])&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="break_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="break_key" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="break_key" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="break_txt" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="break_txt" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Rest break\n\nTake a short rest, blink, and swallow.\n\nPress SPACEBAR when you are ready to continue." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="read">
+      <RoutineSettingsComponent name="read" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="read" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="read_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="cue_duration = 1.5&amp;#10;feedback_text = &quot;&quot;&amp;#10;predicted_word = &quot;&quot;&amp;#10;prediction_confidence = &quot;&quot;&amp;#10;&amp;#10;win.callOnFlip(outlet.push_sample, [f&quot;SILENT_CUE:{target_word}&quot;])&amp;#10;stimulus_txt_2.setText(target_word)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="if t &gt;= cue_duration: &amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="read_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="stimulus_txt_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.17" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="stimulus_txt_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.08)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$target_word" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="phase_txt_read" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.06" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="phase_txt_read" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.28)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Target cue" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Processing_calibration">
+      <RoutineSettingsComponent name="Processing_calibration" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Processing_calibration" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="processing_code" plugin="None">
+        <Param val="online_calibration_proc = None&amp;#10;online_calibration_result = None&amp;#10;online_calibration_result_path = None&amp;#10;adaptation_allowed = False&amp;#10;adaptation_reason = ''&amp;#10;top_matches = []&amp;#10;&amp;#10;selected_model_key = None&amp;#10;selected_mode_name = None&amp;#10;&amp;#10;completed_online_trials = 0&amp;#10;predicted_word = ''&amp;#10;prediction_confidence = ''&amp;#10;feedback_text = ''&amp;#10;run_summary_text = ''&amp;#10;&amp;#10;online_decoder_proc = None&amp;#10;online_decoder_log_handle = None&amp;#10;online_decoder_results_dir = None&amp;#10;online_decoder_service_status_path = None&amp;#10;online_decoder_latest_path = None&amp;#10;online_decoder_summary_path = None&amp;#10;online_decoder_launch_error = ''&amp;#10;online_decoder_ready = False&amp;#10;&amp;#10;current_trial_index = 0&amp;#10;decoder_result_for_trial = None&amp;#10;expected_result_json_path = None&amp;#10;decode_wait_start_time = None&amp;#10;decode_timeout_sec = 10.0&amp;#10;&amp;#10;processing_stage = ''&amp;#10;brainprint_candidate_npz = None&amp;#10;brainprint_compare_json = None&amp;#10;brainprint_best_match_file = ''&amp;#10;brainprint_best_match_cosine = None&amp;#10;brainprint_status = 'not_run'&amp;#10;processing_stage_started_at = None" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="continueRoutine = True&amp;#10;&amp;#10;online_calibration_result = None&amp;#10;adaptation_allowed = False&amp;#10;adaptation_reason = ''&amp;#10;top_matches = []&amp;#10;&amp;#10;selected_model_key = None if PREPARED_RUN is None else PREPARED_RUN.get('selected_model')&amp;#10;selected_mode_name = None if PREPARED_RUN is None else PREPARED_RUN.get('selected_mode')&amp;#10;&amp;#10;online_decoder_launch_error = ''&amp;#10;online_decoder_ready = False&amp;#10;&amp;#10;current_trial_index = 0&amp;#10;decoder_result_for_trial = None&amp;#10;expected_result_json_path = None&amp;#10;decode_wait_start_time = None&amp;#10;decode_timeout_sec = 10.0&amp;#10;&amp;#10;brainprint_candidate_npz = None&amp;#10;brainprint_compare_json = None&amp;#10;brainprint_best_match_file = ''&amp;#10;brainprint_best_match_cosine = None&amp;#10;brainprint_status = 'not_run'&amp;#10;processing_stage_started_at = globalClock.getTime()&amp;#10;&amp;#10;if PREPARED_RUN is None:&amp;#10;    processing_text.text = &quot;No prepared run bridge found.&quot;&amp;#10;    adaptation_reason = &quot;No prepared run bridge found.&quot;&amp;#10;    processing_stage = &quot;failed&quot;&amp;#10;&amp;#10;else:&amp;#10;    online_decoder_results_dir = PREPARED_RUN.get('online_results_dir')&amp;#10;    if online_decoder_results_dir:&amp;#10;        os.makedirs(online_decoder_results_dir, exist_ok=True)&amp;#10;&amp;#10;    online_decoder_service_status_path = (&amp;#10;        None if not online_decoder_results_dir&amp;#10;        else os.path.join(online_decoder_results_dir, 'service_status.json')&amp;#10;    )&amp;#10;    online_decoder_latest_path = (&amp;#10;        None if not online_decoder_results_dir&amp;#10;        else os.path.join(online_decoder_results_dir, 'latest.json')&amp;#10;    )&amp;#10;    online_decoder_summary_path = (&amp;#10;        None if not online_decoder_results_dir&amp;#10;        else os.path.join(online_decoder_results_dir, 'run_summary.json')&amp;#10;    )&amp;#10;&amp;#10;    # clean stale files for this run&amp;#10;    if online_decoder_results_dir and os.path.isdir(online_decoder_results_dir):&amp;#10;        for stale_name in ['service_status.json', 'latest.json', 'run_summary.json']:&amp;#10;            stale_path = os.path.join(online_decoder_results_dir, stale_name)&amp;#10;            if os.path.exists(stale_path):&amp;#10;                try:&amp;#10;                    os.remove(stale_path)&amp;#10;                except Exception:&amp;#10;                    pass&amp;#10;&amp;#10;        for filename in os.listdir(online_decoder_results_dir):&amp;#10;            if filename.startswith('trial_') and filename.endswith('.json'):&amp;#10;                try:&amp;#10;                    os.remove(os.path.join(online_decoder_results_dir, filename))&amp;#10;                except Exception:&amp;#10;                    pass&amp;#10;&amp;#10;    processing_text.text = &quot;Processing calibration...\n\nComputing brainprint.&quot;&amp;#10;    processing_stage = &quot;brainprint_compute_start&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="if processing_stage == &quot;failed&quot;: &amp;#10;    continueRoutine = False &amp;#10; &amp;#10;elif processing_stage == &quot;brainprint_compute_start&quot;: &amp;#10;    calibration_xdf = None &amp;#10;    if PREPARED_RUN is not None: &amp;#10;        calibration_xdf = PREPARED_RUN.get('recording_block_paths', {}).get('calibration') &amp;#10; &amp;#10;    has_eeg = selected_mode_name is not None and ('EEG' in str(selected_mode_name)) &amp;#10; &amp;#10;    if (not has_eeg) or (not calibration_xdf) or (not os.path.exists(calibration_xdf)): &amp;#10;        brainprint_status = 'skipped' &amp;#10;        adaptation_reason = 'Skipping brainprint: no EEG calibration file available.' &amp;#10;        processing_text.text = &quot;Processing calibration...\n\nSkipping brainprint.\nLaunching decoder.&quot; &amp;#10;        processing_stage = &quot;decoder_start&quot; &amp;#10; &amp;#10;    else: &amp;#10;        brainprint_candidate_npz = os.path.join( &amp;#10;            PROJECT_ROOT, &amp;#10;            'brainprints', &amp;#10;            'candidates', &amp;#10;            os.path.splitext(os.path.basename(calibration_xdf))[0] + '.npz' &amp;#10;        ) &amp;#10; &amp;#10;        compute_script = os.path.join(PROJECT_ROOT, 'code', 'decoder', 'compute_brainprint.py') &amp;#10;        compute_cmd = [ &amp;#10;            get_decoder_python_exe(), &amp;#10;            compute_script, &amp;#10;            '--xdf', calibration_xdf, &amp;#10;            '--out', brainprint_candidate_npz, &amp;#10;            '--signal-stream-type', 'EEG', &amp;#10;            '--marker-stream-name', 'PsychoPy_Markers', &amp;#10;        ] &amp;#10; &amp;#10;        print(&quot;Running brainprint compute:&quot;, &quot; &quot;.join(compute_cmd)) &amp;#10;        processing_text.text = &quot;Processing calibration...\n\nComputing brainprint.&quot; &amp;#10; &amp;#10;        try: &amp;#10;            compute_res = subprocess.run( &amp;#10;                compute_cmd, &amp;#10;                capture_output=True, &amp;#10;                text=True, &amp;#10;                timeout=60, &amp;#10;            ) &amp;#10; &amp;#10;            if compute_res.stdout: &amp;#10;                print(&quot;Brainprint compute stdout:\n&quot;, compute_res.stdout) &amp;#10;            if compute_res.stderr: &amp;#10;                print(&quot;Brainprint compute stderr:\n&quot;, compute_res.stderr) &amp;#10; &amp;#10;            bank_dir = get_configured_path('paths.brainprint_bank_dir', os.path.join(PROJECT_ROOT, 'brainprints', 'bank')) &amp;#10;            bank_has_npz = False &amp;#10;            if os.path.isdir(bank_dir): &amp;#10;                for fname in os.listdir(bank_dir): &amp;#10;                    if fname.endswith('.npz'): &amp;#10;                        bank_has_npz = True &amp;#10;                        break &amp;#10; &amp;#10;            if compute_res.returncode == 0 and brainprint_candidate_npz and os.path.exists(brainprint_candidate_npz) and bank_has_npz: &amp;#10;                processing_text.text = &quot;Processing calibration...\n\nComparing brainprint against bank.&quot; &amp;#10;                processing_stage = &quot;brainprint_compare_start&quot; &amp;#10;            elif compute_res.returncode == 0: &amp;#10;                brainprint_status = 'ok_no_bank' &amp;#10;                adaptation_reason = 'Brainprint computed, but bank comparison skipped because bank is empty.' &amp;#10;                processing_text.text = &quot;Processing calibration...\n\nBrainprint computed.\nNo bank available.\nLaunching decoder.&quot; &amp;#10;                processing_stage = &quot;decoder_start&quot; &amp;#10;            else: &amp;#10;                brainprint_status = 'failed' &amp;#10;                adaptation_allowed = False &amp;#10;                adaptation_reason = 'Brainprint computation failed.' &amp;#10;                processing_text.text = &quot;Processing calibration...\n\nBrainprint computation failed.\nLaunching decoder without adaptation.&quot; &amp;#10;                processing_stage = &quot;decoder_start&quot; &amp;#10; &amp;#10;        except subprocess.TimeoutExpired: &amp;#10;            brainprint_status = 'failed' &amp;#10;            adaptation_allowed = False &amp;#10;            adaptation_reason = 'Brainprint computation timed out.' &amp;#10;            processing_text.text = &quot;Processing calibration...\n\nBrainprint computation timed out.\nLaunching decoder without adaptation.&quot; &amp;#10;            processing_stage = &quot;decoder_start&quot; &amp;#10; &amp;#10;elif processing_stage == &quot;brainprint_compute_wait&quot;: &amp;#10;    if brainprint_compute_proc is not None: &amp;#10;        return_code = brainprint_compute_proc.poll() &amp;#10;        if return_code is not None: &amp;#10;            stdout_text, stderr_text = brainprint_compute_proc.communicate() &amp;#10; &amp;#10;            if stdout_text: &amp;#10;                print(&quot;Brainprint compute stdout:\n&quot;, stdout_text) &amp;#10;            if stderr_text: &amp;#10;                print(&quot;Brainprint compute stderr:\n&quot;, stderr_text) &amp;#10; &amp;#10;            bank_dir = get_configured_path('paths.brainprint_bank_dir', os.path.join(PROJECT_ROOT, 'brainprints', 'bank')) &amp;#10;            bank_has_npz = False &amp;#10;            if os.path.isdir(bank_dir): &amp;#10;                for fname in os.listdir(bank_dir): &amp;#10;                    if fname.endswith('.npz'): &amp;#10;                        bank_has_npz = True &amp;#10;                        break &amp;#10; &amp;#10;            if return_code == 0 and brainprint_candidate_npz and os.path.exists(brainprint_candidate_npz) and bank_has_npz: &amp;#10;                processing_text.text = &quot;Processing calibration...\n\nComparing brainprint against bank.&quot; &amp;#10;                processing_stage = &quot;brainprint_compare_start&quot; &amp;#10;            elif return_code == 0: &amp;#10;                brainprint_status = 'ok_no_bank' &amp;#10;                adaptation_reason = 'Brainprint computed, but bank comparison skipped because bank is empty.' &amp;#10;                processing_text.text = &quot;Processing calibration...\n\nBrainprint computed.\nNo bank available.\nLaunching decoder.&quot; &amp;#10;                processing_stage = &quot;decoder_start&quot; &amp;#10;            else: &amp;#10;                brainprint_status = 'failed' &amp;#10;                adaptation_reason = 'Brainprint computation failed.' &amp;#10;                processing_text.text = &quot;Processing calibration...\n\nBrainprint computation failed.\nLaunching decoder without adaptation.&quot; &amp;#10;                processing_stage = &quot;decoder_start&quot; &amp;#10; &amp;#10;elif processing_stage == &quot;brainprint_compare_start&quot;: &amp;#10;    compare_script = os.path.join(PROJECT_ROOT, 'code', 'decoder', 'compare_brainprint.py') &amp;#10;    brainprint_compare_json = os.path.join( &amp;#10;        PROJECT_ROOT, &amp;#10;        'brainprints', &amp;#10;        'comparisons', &amp;#10;        os.path.splitext(os.path.basename(brainprint_candidate_npz))[0] + '_compare.json' &amp;#10;    ) &amp;#10; &amp;#10;    compare_cmd = [ &amp;#10;        get_decoder_python_exe(), &amp;#10;        compare_script, &amp;#10;        '--mode', 'query', &amp;#10;        '--query', brainprint_candidate_npz, &amp;#10;        '--bank-dir', get_configured_path('paths.brainprint_bank_dir', os.path.join(PROJECT_ROOT, 'brainprints', 'bank')), &amp;#10;        '--top-k', '10', &amp;#10;        '--strict-meta-keys', 'signal_type', 'fs', 'tmin', 'tmax', &amp;#10;        '--out', brainprint_compare_json, &amp;#10;    ] &amp;#10; &amp;#10;    print(&quot;Running brainprint compare:&quot;, &quot; &quot;.join(compare_cmd)) &amp;#10;    processing_text.text = &quot;Processing calibration...\n\nComparing brainprint against bank.&quot; &amp;#10; &amp;#10;    try: &amp;#10;        compare_res = subprocess.run( &amp;#10;            compare_cmd, &amp;#10;            capture_output=True, &amp;#10;            text=True, &amp;#10;            timeout=60, &amp;#10;        ) &amp;#10; &amp;#10;        if compare_res.stdout: &amp;#10;            print(&quot;Brainprint compare stdout:\n&quot;, compare_res.stdout) &amp;#10;        if compare_res.stderr: &amp;#10;            print(&quot;Brainprint compare stderr:\n&quot;, compare_res.stderr) &amp;#10; &amp;#10;        if compare_res.returncode == 0 and os.path.exists(brainprint_compare_json): &amp;#10;            try: &amp;#10;                with open(brainprint_compare_json, 'r', encoding='utf-8') as f: &amp;#10;                    compare_payload = json.load(f) &amp;#10;                top_matches = compare_payload.get('ranked_results', []) &amp;#10;            except Exception: &amp;#10;                top_matches = [] &amp;#10; &amp;#10;            if len(top_matches) &gt; 0: &amp;#10;                brainprint_best_match_file = top_matches[0].get('file', '') &amp;#10;                brainprint_best_match_cosine = top_matches[0].get('cosine_similarity', None) &amp;#10;                adaptation_allowed = True &amp;#10;                adaptation_reason = 'Brainprint compared successfully.' &amp;#10;            else: &amp;#10;                adaptation_allowed = False &amp;#10;                adaptation_reason = 'Brainprint compare produced no ranked results.' &amp;#10; &amp;#10;            brainprint_status = 'ok' &amp;#10;            processing_text.text = &quot;Processing calibration...\n\nBrainprint compared.\nLaunching decoder.&quot; &amp;#10;        else: &amp;#10;            brainprint_status = 'failed' &amp;#10;            adaptation_allowed = False &amp;#10;            adaptation_reason = 'Brainprint comparison failed.' &amp;#10;            processing_text.text = &quot;Processing calibration...\n\nBrainprint comparison failed.\nLaunching decoder without adaptation.&quot; &amp;#10; &amp;#10;        processing_stage = &quot;decoder_start&quot; &amp;#10; &amp;#10;    except subprocess.TimeoutExpired: &amp;#10;        brainprint_status = 'failed' &amp;#10;        adaptation_allowed = False &amp;#10;        adaptation_reason = 'Brainprint comparison timed out.' &amp;#10;        processing_text.text = &quot;Processing calibration...\n\nBrainprint comparison timed out.\nLaunching decoder without adaptation.&quot; &amp;#10;        processing_stage = &quot;decoder_start&quot; &amp;#10; &amp;#10;elif processing_stage == &quot;brainprint_compare_wait&quot;: &amp;#10;    if brainprint_compare_proc is not None: &amp;#10;        return_code = brainprint_compare_proc.poll() &amp;#10;        if return_code is not None: &amp;#10;            stdout_text, stderr_text = brainprint_compare_proc.communicate() &amp;#10; &amp;#10;            if stdout_text: &amp;#10;                print(&quot;Brainprint compare stdout:\n&quot;, stdout_text) &amp;#10;            if stderr_text: &amp;#10;                print(&quot;Brainprint compare stderr:\n&quot;, stderr_text) &amp;#10; &amp;#10;            if return_code == 0 and brainprint_compare_json and os.path.exists(brainprint_compare_json): &amp;#10;                try: &amp;#10;                    with open(brainprint_compare_json, 'r', encoding='utf-8') as f: &amp;#10;                        compare_payload = json.load(f) &amp;#10;                    top_matches = compare_payload.get('ranked_results', []) &amp;#10;                except Exception: &amp;#10;                    top_matches = [] &amp;#10; &amp;#10;                if len(top_matches) &gt; 0: &amp;#10;                    brainprint_best_match_file = top_matches[0].get('file', '') &amp;#10;                    brainprint_best_match_cosine = top_matches[0].get('cosine_similarity', None) &amp;#10;                    adaptation_allowed = True &amp;#10;                    adaptation_reason = 'Brainprint compared successfully.' &amp;#10;                else: &amp;#10;                    adaptation_allowed = False &amp;#10;                    adaptation_reason = 'Brainprint compare produced no ranked results.' &amp;#10; &amp;#10;                brainprint_status = 'ok' &amp;#10;                processing_text.text = &quot;Processing calibration...\n\nBrainprint compared.\nLaunching decoder.&quot; &amp;#10;            else: &amp;#10;                brainprint_status = 'failed' &amp;#10;                adaptation_allowed = False &amp;#10;                adaptation_reason = 'Brainprint comparison failed.' &amp;#10;                processing_text.text = &quot;Processing calibration...\n\nBrainprint comparison failed.\nLaunching decoder without adaptation.&quot; &amp;#10; &amp;#10;            processing_stage = &quot;decoder_start&quot; &amp;#10; &amp;#10;elif processing_stage == &quot;decoder_start&quot;: &amp;#10;    if PREPARED_RUN is None: &amp;#10;        online_decoder_launch_error = 'PREPARED_RUN is missing.' &amp;#10;        processing_text.text = &quot;Could not launch decoder:\nPREPARED_RUN missing.&quot; &amp;#10;        processing_stage = &quot;decoder_failed&quot; &amp;#10; &amp;#10;    else: &amp;#10;        decoder_script = get_configured_path('paths.online_decoder_service_script', os.path.join(PROJECT_ROOT, 'code', 'decoder', 'online_decoder_service.py')) &amp;#10;        bridge_path = PREPARED_RUN_SOURCE if PREPARED_RUN_SOURCE else os.path.join(PROJECT_ROOT, 'data', 'latest_prepared_run.json') &amp;#10;        bundle_path = PREPARED_RUN.get('decoder_bundle_path') &amp;#10;        summary_json = PREPARED_RUN.get('brainprint_summary_json') &amp;#10; &amp;#10;        cmd = [ &amp;#10;            get_decoder_python_exe(), &amp;#10;            decoder_script, &amp;#10;            '--bridge', bridge_path, &amp;#10;            '--results-dir', online_decoder_results_dir, &amp;#10;            '--marker-stream-name', 'PsychoPy_Markers', &amp;#10;            '--mode', PREPARED_RUN.get('experiment_mode', 'online_silent'), &amp;#10;            '--device', 'cpu', &amp;#10;        ] &amp;#10; &amp;#10;        if bundle_path: &amp;#10;            cmd.extend(['--bundle-path', bundle_path]) &amp;#10; &amp;#10;        if brainprint_compare_json and os.path.exists(brainprint_compare_json): &amp;#10;            cmd.extend(['--brainprint-compare-json', brainprint_compare_json]) &amp;#10; &amp;#10;        if summary_json and os.path.exists(summary_json): &amp;#10;            cmd.extend(['--brainprint-summary-json', summary_json]) &amp;#10; &amp;#10;        print(&quot;Launching online decoder service:&quot;) &amp;#10;        print(&quot; &quot;.join(cmd)) &amp;#10; &amp;#10;        online_decoder_proc = subprocess.Popen(cmd) &amp;#10;        processing_text.text = &quot;Processing calibration...\n\nLaunching decoder service.&quot; &amp;#10;        processing_stage_started_at = globalClock.getTime() &amp;#10;        processing_stage = &quot;decoder_wait_ready&quot; &amp;#10; &amp;#10;elif processing_stage == &quot;decoder_wait_ready&quot;: &amp;#10;    status_payload = None &amp;#10; &amp;#10;    if online_decoder_service_status_path and os.path.exists(online_decoder_service_status_path): &amp;#10;        try: &amp;#10;            with open(online_decoder_service_status_path, 'r', encoding='utf-8') as f: &amp;#10;                status_payload = json.load(f) &amp;#10;        except Exception: &amp;#10;            status_payload = None &amp;#10; &amp;#10;    if status_payload is not None: &amp;#10;        decoder_status = status_payload.get('status', 'unknown') &amp;#10;        processing_text.text = f&quot;Processing calibration...\n\nDecoder status: {decoder_status}&quot; &amp;#10; &amp;#10;        if decoder_status == 'running': &amp;#10;            online_decoder_ready = True &amp;#10;            continueRoutine = False &amp;#10; &amp;#10;    if online_decoder_proc is not None and online_decoder_proc.poll() is not None and not online_decoder_ready: &amp;#10;        online_decoder_launch_error = 'Online decoder service exited before reaching running state.' &amp;#10;        processing_text.text = online_decoder_launch_error &amp;#10;        processing_stage = &quot;decoder_failed&quot; &amp;#10; &amp;#10;    elif globalClock.getTime() - processing_stage_started_at &gt;= 20.0 and not online_decoder_ready: &amp;#10;        online_decoder_launch_error = 'Timed out waiting for decoder service to reach running state.' &amp;#10;        processing_text.text = online_decoder_launch_error &amp;#10;        processing_stage = &quot;decoder_failed&quot; &amp;#10; &amp;#10;elif processing_stage == &quot;decoder_failed&quot;: &amp;#10;    adaptation_allowed = False &amp;#10;    if not adaptation_reason: &amp;#10;        adaptation_reason = online_decoder_launch_error if online_decoder_launch_error else 'Decoder launch failed.' &amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="thisExp.addData('adaptation_allowed', adaptation_allowed)&amp;#10;thisExp.addData('adaptation_reason', adaptation_reason)&amp;#10;thisExp.addData('brainprint_status', brainprint_status)&amp;#10;thisExp.addData('brainprint_candidate_npz', brainprint_candidate_npz if brainprint_candidate_npz else '')&amp;#10;thisExp.addData('brainprint_compare_json', brainprint_compare_json if brainprint_compare_json else '')&amp;#10;thisExp.addData('online_decoder_results_dir', online_decoder_results_dir if online_decoder_results_dir else '')&amp;#10;thisExp.addData('online_decoder_service_status_path', online_decoder_service_status_path if online_decoder_service_status_path else '')&amp;#10;thisExp.addData('online_decoder_ready', online_decoder_ready)&amp;#10;&amp;#10;if brainprint_best_match_file:&amp;#10;    thisExp.addData('best_match_file', brainprint_best_match_file)&amp;#10;else:&amp;#10;    thisExp.addData('best_match_file', '')&amp;#10;&amp;#10;if brainprint_best_match_cosine is not None:&amp;#10;    thisExp.addData('best_match_cosine', brainprint_best_match_cosine)&amp;#10;else:&amp;#10;    thisExp.addData('best_match_cosine', '')" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="processing_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="processing_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.07" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="processing_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Processing calibration profile...&amp;#10;&amp;#10;Please wait." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1.3" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="decode_wait">
+      <RoutineSettingsComponent name="decode_wait" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="decode_wait" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="decode_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="decoder_result_for_trial = None&amp;#10;decode_wait_start_time = globalClock.getTime()&amp;#10;decode_timeout_sec = 10.0&amp;#10;decoder_read_error = ''&amp;#10;&amp;#10;predicted_word = ''&amp;#10;prediction_confidence = ''&amp;#10;decoder_latency_ms = ''&amp;#10;decoder_status = 'waiting'&amp;#10;&amp;#10;if not online_decoder_results_dir and PREPARED_RUN is not None:&amp;#10;    online_decoder_results_dir = PREPARED_RUN.get('online_results_dir')&amp;#10;&amp;#10;if online_decoder_results_dir:&amp;#10;    expected_result_json_path = os.path.join(&amp;#10;        online_decoder_results_dir,&amp;#10;        f&quot;trial_{current_trial_index:03d}.json&quot;&amp;#10;    )&amp;#10;else:&amp;#10;    expected_result_json_path = None&amp;#10;&amp;#10;thisExp.addData('expected_result_json_path', expected_result_json_path if expected_result_json_path else '')&amp;#10;thisExp.addData('target_word', target_word)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="if expected_result_json_path is not None and os.path.exists(expected_result_json_path):&amp;#10;    try:&amp;#10;        with open(expected_result_json_path, 'r', encoding='utf-8') as f:&amp;#10;            decoder_result_for_trial = json.load(f)&amp;#10;        decoder_read_error = ''&amp;#10;    except (PermissionError, OSError, json.JSONDecodeError, ValueError) as exc:&amp;#10;        # Windows can briefly lock the JSON while the decoder is writing it,&amp;#10;        # or PsychoPy can catch the file before it is fully flushed. Do not&amp;#10;        # crash the experiment; keep waiting and retry next frame until timeout.&amp;#10;        decoder_result_for_trial = None&amp;#10;        decoder_read_error = f&quot;{type(exc).__name__}: {exc}&quot;&amp;#10;        decoder_status = 'read_retry'&amp;#10;        feedback_text = (&amp;#10;            f&quot;Target: {target_word}\n&quot;&amp;#10;            f&quot;Waiting for decoder result...\n&quot;&amp;#10;            f&quot;{decoder_read_error}&quot;&amp;#10;        )&amp;#10;&amp;#10;    if decoder_result_for_trial is not None:&amp;#10;        predicted_word = decoder_result_for_trial.get('predicted_word', 'NO_RESULT')&amp;#10;        prediction_confidence = decoder_result_for_trial.get('confidence', '')&amp;#10;        decoder_latency_ms = decoder_result_for_trial.get('latency_ms', '')&amp;#10;        decoder_status = decoder_result_for_trial.get('status', 'unknown')&amp;#10;&amp;#10;        if decoder_status == &quot;ok&quot;:&amp;#10;            feedback_text = (&amp;#10;                f&quot;Target: {target_word}\n&quot;&amp;#10;                f&quot;Prediction: {predicted_word}\n&quot;&amp;#10;                f&quot;Confidence: {prediction_confidence}&quot;&amp;#10;            )&amp;#10;        else:&amp;#10;            feedback_text = (&amp;#10;                f&quot;Target: {target_word}\n&quot;&amp;#10;                f&quot;Prediction: {predicted_word}\n&quot;&amp;#10;                f&quot;Confidence: {prediction_confidence}\n&quot;&amp;#10;                f&quot;Decoder status: {decoder_status}&quot;&amp;#10;            )&amp;#10;&amp;#10;        continueRoutine = False&amp;#10;&amp;#10;elif globalClock.getTime() - decode_wait_start_time &gt;= decode_timeout_sec:&amp;#10;    predicted_word = 'TIMEOUT'&amp;#10;    prediction_confidence = ''&amp;#10;    decoder_latency_ms = ''&amp;#10;    decoder_status = 'timeout'&amp;#10;&amp;#10;    feedback_text = (&amp;#10;        f&quot;Target: {target_word}\n&quot;&amp;#10;        f&quot;Prediction: {predicted_word}\n&quot;&amp;#10;        f&quot;Decoder status: timeout&quot;&amp;#10;    )&amp;#10;&amp;#10;    continueRoutine = False&amp;#10;&amp;#10;# If the file exists but is temporarily unreadable, the retry branch above keeps&amp;#10;# continueRoutine=True until the normal timeout condition is reached." valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="try: &amp;#10;    if online_decoder_proc is not None and online_decoder_proc.poll() is None: &amp;#10;        online_decoder_proc.terminate() &amp;#10;        try: &amp;#10;            online_decoder_proc.wait(timeout=2.0) &amp;#10;        except Exception: &amp;#10;            online_decoder_proc.kill() &amp;#10;        print(&quot;Online decoder service terminated cleanly.&quot;) &amp;#10;except Exception as e: &amp;#10;    print(f&quot;Could not terminate online decoder service cleanly: {e}&quot;)" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="thisExp.addData('predicted_word', predicted_word)&amp;#10;thisExp.addData('prediction_confidence', prediction_confidence)&amp;#10;thisExp.addData('decoder_status', decoder_status)&amp;#10;thisExp.addData('decoder_latency_ms', decoder_latency_ms)&amp;#10;thisExp.addData('decoder_read_error', decoder_read_error if 'decoder_read_error' in globals() or 'decoder_read_error' in locals() else '')" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="decode_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="decode_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="decode_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Decoding..." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="online_feedback">
+      <RoutineSettingsComponent name="online_feedback" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="online_feedback" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="feedback_txt" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.06" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="feedback_txt" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$feedback_text" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1.2" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="feedback_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="# Destroy the LSL stream to release the background thread&amp;#10;try:&amp;#10;    del outlet&amp;#10;    del info&amp;#10;    print(&quot;LSL marker stream closed cleanly.&quot;)&amp;#10;except:&amp;#10;    pass" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="feedback_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Welcome"/>
+    <Routine name="cal_instructions"/>
+    <Routine name="Start_record"/>
+    <LoopInitiator loopType="TrialHandler" name="cal">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0,1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="200" valType="num"/>
+      <Param name="name" updates="None" val="cal" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="calibration"/>
+    <LoopTerminator name="cal"/>
+    <Routine name="Stop_record"/>
+    <Routine name="Processing_calibration"/>
+    <Routine name="Instructions_silent"/>
+    <Routine name="Start_record"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_online_silent">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'target_word': '1 (ONE)'}, {'target_word': '2 (TWO)'}, {'target_word': '3 (THREE)'}, {'target_word': '4 (FOUR)'}, {'target_word': '5 (FIVE)'}, {'target_word': 'REJOIN'}, {'target_word': 'ASSET'}, {'target_word': 'ABORT'}, {'target_word': 'FORMATION'}, {'target_word': 'REFUEL'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Conditions.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0,1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="45" valType="num"/>
+      <Param name="name" updates="None" val="trials_online_silent" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="wait"/>
+    <Routine name="read"/>
+    <Routine name="trial"/>
+    <Routine name="decode_wait"/>
+    <Routine name="online_feedback"/>
+    <Routine name="mini_break"/>
+    <LoopTerminator name="trials_online_silent"/>
+    <Routine name="Stop_record"/>
+    <Routine name="Finish"/>
+  </Flow>
+</PsychoPy2experiment>

@@ -1,0 +1,57 @@
+name: tfm_unified
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - tk
+  - pip:
+      # Core numerical and decoder stack
+      - numpy==2.2.6
+      - scipy==1.14.1
+      - pandas==3.0.2
+      - scikit-learn==1.8.0
+      - torch==2.11.0
+      - torchvision==0.26.0
+      - torchaudio==2.11.0
+      - joblib==1.5.3
+      - threadpoolctl==3.6.0
+
+      # PsychoPy and experiment runtime
+      - psychopy==2026.1.3
+      - psychtoolbox==3.0.19.14
+      - wxPython==4.2.5
+      - pyglet==1.4.11
+      - ffpyplayer==4.5.3
+      - soundfile==0.13.1
+      - pillow==11.3.0
+      - imageio==2.37.3
+      - imageio-ffmpeg==0.6.0
+      - moviepy==2.2.1
+
+      # LSL/XDF acquisition
+      - pylsl==1.18.2
+      - pyxdf==1.17.4
+      - pyserial==3.5
+
+      # GUI and configuration
+      - PyQt6==6.11.0
+      - pyyaml==6.0.3
+      - python-dotenv==1.2.2
+      - psutil==7.2.2
+
+      # Data, plotting and file support
+      - matplotlib==3.10.9
+      - openpyxl==3.1.5
+      - tables==3.11.1
+      - xarray==2026.4.0
+      - opencv-python==4.13.0.92
+      - requests==2.34.2
+      - tqdm==4.67.3
+
+      # Windows runtime helpers required by the validated environment
+      - pywin32==311
+      - pypiwin32==223
+      - pywinpty==3.0.3

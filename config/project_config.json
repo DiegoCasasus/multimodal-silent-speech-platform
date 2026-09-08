@@ -1,0 +1,50 @@
+{
+  "project": {
+    "root": "."
+  },
+  "defaults": {
+    "mode": "EEG",
+    "experiment_mode": "recording",
+    "record_xdf": true,
+    "brainprint_enabled": true
+  },
+  "paths": {
+    "data_root": "data",
+    "bridge_file": "data/latest_prepared_run.json",
+    "online_results_root": "data/online_results",
+    "recordings_root": "recordings",
+    "final_decoder_bundles_dir": "data/final_decoder_bundles/silent_v1",
+    "decoder_manifest_path": "data/final_decoder_bundles/silent_v1/decoder_manifest.json",
+    "brainprint_root": "brainprints",
+    "brainprint_bank_dir": "brainprints/bank",
+    "brainprint_candidate_dir": "brainprints/candidates",
+    "brainprint_comparison_dir": "brainprints/comparisons",
+    "brainprint_rejected_dir": "brainprints/rejected",
+    "brainprint_summary_json": "brainprints/all_vs_all/summary.json",
+    "offline_psychopy_script": "psychopy/Experiment_Offline.py",
+    "online_silent_psychopy_script": "psychopy/Experiment_Online_Silent.py",
+    "online_imagined_psychopy_script": "psychopy/Experiment_Online_Imagined.py",
+    "compute_brainprint_script": "code/decoder/compute_brainprint.py",
+    "compare_brainprint_script": "code/decoder/compare_brainprint.py",
+    "prepare_online_calibration_script": "code/decoder/prepare_online_calibration.py",
+    "online_decoder_service_script": "code/decoder/online_decoder_service.py",
+    "preprocessing_portable_script": "code/decoder/preprocessing_portable.py",
+    "train_export_decoder_script": "code/decoder/train_export_decoder.py"
+  },
+  "external_tools": {
+    "labrecorder_exe": null,
+    "psychopy_python_exe": null,
+    "decoder_python_exe": null
+  },
+  "runtime": {
+    "stream_discovery_timeout": 2.0,
+    "decoder_device": "cpu",
+    "decoder_startup_timeout_s": 15.0
+  },
+  "brainprint": {
+    "signal_stream_type": "EEG",
+    "marker_stream_name": "PsychoPy_Markers",
+    "compare_top_k": 5,
+    "auto_process_after_recording": true
+  }
+}

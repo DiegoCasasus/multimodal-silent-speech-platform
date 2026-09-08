@@ -1,0 +1,30 @@
+{
+  "manifest_version": "imagined_decoder_manifest_v1",
+  "bundle_dir": "data/final_decoder_bundles/imagined_v1",
+  "n_decoders": 1,
+  "decoders": [
+    {
+      "name": "eeg_only_v1_imagined_decoder_bundle",
+      "display_name": "Imagined EEG only \u2014 multiband",
+      "model_key": "eeg_only_v1",
+      "target_task": "imagined",
+      "bundle_path": "data/final_decoder_bundles/imagined_v1/T_eeg_only/eeg_only_v1_imagined_decoder_bundle.pt",
+      "required_modalities": [
+        "eeg"
+      ],
+      "fusion_mode": "concat",
+      "input_channels": {
+        "eeg": 128
+      },
+      "target_size": {
+        "eeg": 256
+      },
+      "preprocessing_tag": "w-0.50_+2.00_n256_eeg1.0-40.0_eegmultiband_bands4-8+8-13+13-30+1-40_car_eegbase_emg20.0-100.0_emgraw_noemgbase_imuLP15.0_imuall_imuraw",
+      "window_start_s": -0.5,
+      "window_end_s": 2.0,
+      "best_val_balanced_accuracy": 0.145,
+      "best_val_macro_f1": 0.22823384983905978,
+      "description": "Imagined-speech EEG-only decoder using four-band multiband EEG preprocessing."
+    }
+  ]
+}

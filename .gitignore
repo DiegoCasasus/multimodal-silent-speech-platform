@@ -1,0 +1,87 @@
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------
+# Virtual environments
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+
+# ------------------------------------------------------------
+# macOS / Windows metadata
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------------------
+# IDE/editor files
+# ------------------------------------------------------------
+.vscode/
+.idea/
+
+# ------------------------------------------------------------
+# Runtime logs
+# ------------------------------------------------------------
+logs/
+*.log
+
+# ------------------------------------------------------------
+# Physiological recordings and participant-derived data
+# ------------------------------------------------------------
+recordings/
+*.xdf
+
+data/online_results/
+data/sub-*/
+data/processed*/
+data/processed_sweeps/
+
+# Runtime hand-off/state files
+data/latest_prepared_run.json
+
+# ------------------------------------------------------------
+# PsychoPy runtime outputs
+# ------------------------------------------------------------
+psychopy/data/
+psychopy/*.csv
+psychopy/*.psydat
+psychopy/*.log
+
+# ------------------------------------------------------------
+# Private brainprint / participant-derived resources
+# ------------------------------------------------------------
+brainprints/bank/*
+!brainprints/bank/.gitkeep
+
+brainprints/all_vs_all/*
+!brainprints/all_vs_all/.gitkeep
+
+brainprints/candidates/*
+!brainprints/candidates/.gitkeep
+
+brainprints/comparisons/*
+!brainprints/comparisons/.gitkeep
+
+brainprints/queries/*
+!brainprints/queries/.gitkeep
+
+brainprints/holdout/*
+!brainprints/holdout/.gitkeep
+
+brainprints/rejected/*
+!brainprints/rejected/.gitkeep
+
+# ------------------------------------------------------------
+# Archives / temporary exports
+# ------------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
